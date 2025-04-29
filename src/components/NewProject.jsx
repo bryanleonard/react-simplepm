@@ -29,7 +29,7 @@ export default function NewProject({onAdd, onCancel}) {
 			title: enteredTitle,
 			desc: enteredDesc,
 			dueDate: enteredDueDate
-		})
+		});
 	}
 	
 	return (
